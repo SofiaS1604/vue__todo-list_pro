@@ -61,13 +61,13 @@
                     params: {
                         id: this.$route.params.id
                     }
-                }).catch(()=>{})
+                }).catch(()=>{});
             },
 
             viewModal([type, parent]){
                 this.clickButton = 1;
                 this.type = type;
-                this.parent_id = parent
+                this.parent_id = parent;
             },
         },
     }

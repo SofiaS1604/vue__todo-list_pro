@@ -14,7 +14,6 @@
             outputTasks(){
                 return JSON.parse(localStorage.getItem('tasks')) || []
             },
-
             updateLocal(tasks){
                 let tasks_all = this.outputTasks();
                 tasks_all.map(el => {

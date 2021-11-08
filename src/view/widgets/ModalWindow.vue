@@ -22,7 +22,7 @@
         components: componentsList,
         data(){
             return{
-                value: ''
+                value: '',
             }
         },
         methods:{

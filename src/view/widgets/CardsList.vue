@@ -34,7 +34,7 @@
             }
         },
         mounted() {
-            this.tasks_more = this.tasks.length ? this.tasks : this.outputTasks()
+            this.tasks_more = this.tasks.length ? this.tasks : this.outputTasks();
         }
     }
 </script>

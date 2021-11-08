@@ -25,7 +25,7 @@
 
         methods: {
             submitForm(tasks){
-                this.tasks = tasks
+                this.tasks = tasks;
             }
         },
 

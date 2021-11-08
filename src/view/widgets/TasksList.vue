@@ -51,11 +51,11 @@
 
             buttonClick([type, parent]){
                 if (type === 'delete'){
-                    this.tasks = this.tasks.filter(el => el.id !== parent)
-                    this.updateLocal(this.tasks)
-                    this.viewTask(this.parent)
+                    this.tasks = this.tasks.filter(el => el.id !== parent);
+                    this.updateLocal(this.tasks);
+                    this.viewTask(this.parent);
                 }else{
-                    this.$emit('click', [type, parent])
+                    this.$emit('click', [type, parent]);
                 }
             },
         },

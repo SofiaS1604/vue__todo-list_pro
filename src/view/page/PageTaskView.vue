@@ -34,7 +34,7 @@
             }
         },
         mounted() {
-            this.task = this.outputTasks().filter(el => el.id === +this.$route.params.id)[0]
+            this.task = this.outputTasks().filter(el => el.id === +this.$route.params.id)[0];
         }
     }
 </script>

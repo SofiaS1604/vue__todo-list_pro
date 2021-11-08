@@ -18,7 +18,7 @@
         props: ["type", "id"],
         data(){
             return{
-                click: 0
+                click: 0,
             }
         }
     }

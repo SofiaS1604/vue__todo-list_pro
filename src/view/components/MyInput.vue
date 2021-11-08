@@ -10,7 +10,7 @@
         name: "MyInput",
         data(){
             return{
-                value: ''
+                value: '',
             }
         }
     }

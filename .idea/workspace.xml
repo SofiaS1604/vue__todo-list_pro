@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c498fde3-3a60-4323-aee8-885e7cb4049d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/components/MoreButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/components/MoreButton.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/components/MyTask.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/components/MyTask.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/page/PageTaskUpdate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/page/PageTaskUpdate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/page/PageTaskView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/page/PageTaskView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/widgets/CardsList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/widgets/CardsList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/widgets/TaskBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/widgets/TaskBlock.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/widgets/TasksList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/widgets/TasksList.vue" afterDir="false" />
-    </list>
+    <list default="true" id="c498fde3-3a60-4323-aee8-885e7cb4049d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635944130643</updated>
-      <workItem from="1635944134944" duration="54135000" />
+      <workItem from="1635944134944" duration="54408000" />
     </task>
     <servers />
   </component>

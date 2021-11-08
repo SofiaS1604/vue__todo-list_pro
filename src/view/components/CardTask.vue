@@ -1,7 +1,7 @@
 <template>
     <div class="card__item" @click="$emit('click', task.id)">
         <div class="card__title">{{task.title}}</div>
-        <div class="card__info card__tasks">Tasks: {{task.tasks.length}}</div>
+        <div class="card__info card__tasks">Tasks: {{task.tasks.length}} </div>
         <div class="card__info card__date">Date: {{task.date}}</div>
     </div>
 </template>

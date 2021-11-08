@@ -38,15 +38,15 @@
         mounted() {
             this.parent = this.parentId;
             this.tasks = this.tasks_more;
-            this.viewTask(this.parent)
+            this.viewTask(this.parent);
         },
         methods:{
             viewTask(parent_id){
-                this.filter_tasks = this.tasks.filter(el => el.parent_id === parent_id)
+                this.filter_tasks = this.tasks.filter(el => el.parent_id === parent_id);
             },
 
             buttonClick([type, parent]){
-                this.$emit('click', [type, parent])
+                this.$emit('click', [type, parent]);
             },
         },
     }

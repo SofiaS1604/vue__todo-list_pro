@@ -47,7 +47,7 @@
 
                 localStorage.setItem('tasks', JSON.stringify(this.tasks));
                 this.value = '';
-                this.$emit('click', this.tasks)
+                this.$emit('click', this.tasks);
             },
         }
     }
