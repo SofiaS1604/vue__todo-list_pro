@@ -9,7 +9,7 @@
                 <task-block @click="buttonClick" :parentId="task.id" :tasks_more="tasks"/>
             </div>
             <div class="task__info" v-else>
-                <my-task class="task__title" :status="false">{{task.title}}</my-task>
+                <my-task class="task__title" :status="task.checked">{{task.title}}</my-task>
                 <more-button @click="buttonClick" :id="task.id" :type="'task'"/>
             </div>
         </div>

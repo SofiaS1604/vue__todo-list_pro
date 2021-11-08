@@ -8,8 +8,8 @@
                 </div>
                 <task-block @click="buttonClick" :parentId="task.id" :tasks_more="tasks"/>
             </div>
-            <div v-else>
-                <my-task class="task__title" :status="false">{{task.title}}</my-task>
+            <div class="task__info" v-else>
+                <my-task class="task__title" :status="task.checked">{{task.title}}</my-task>
                 <more-button @click="buttonClick" :id="task.id" :type="'task'"/>
             </div>
         </div>
@@ -50,7 +50,13 @@
             },
 
             buttonClick([type, parent]){
-                this.$emit('click', [type, parent])
+                if (type === 'delete'){
+                    this.tasks = this.tasks.filter(el => el.id !== parent)
+                    this.updateLocal(this.tasks)
+                    this.viewTask(this.parent)
+                }else{
+                    this.$emit('click', [type, parent])
+                }
             },
         },
     }

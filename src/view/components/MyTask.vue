@@ -8,7 +8,7 @@
 <script>
     export default {
         name: "MyTask",
-        props: ["status", "id"]
+        props: ["status", "id"],
     }
 </script>
 

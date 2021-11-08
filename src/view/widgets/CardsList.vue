@@ -1,5 +1,5 @@
 <template>
-    <div class="cards__container">
+    <div class="cards__container" v-if="tasks_more.length > 0 && typeof tasks_more[0] === 'object' && tasks_more[0] !== null ">
         <card-task @click="openTask" v-for="task in tasks_more" :key="task.id" :task="task"/>
     </div>
 </template>

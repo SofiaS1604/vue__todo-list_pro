@@ -4,8 +4,8 @@
             <div class="button__item"></div>
         </div>
         <div v-show="click" class="more__list list">
-            <div @click="$emit('click', ['delete', 'id'])" class="list__item">Delete</div>
-            <div @click="$emit('click', ['update', 'id'])" class="list__item">Update</div>
+            <div @click="$emit('click', ['delete', id])" class="list__item">Delete</div>
+            <div @click="$emit('click', ['update', id])" class="list__item">Update</div>
             <div v-if="type === 'block'" @click="$emit('click', ['task', id])" class="list__item">Add task</div>
             <div v-if="type === 'block'" @click="$emit('click', ['block', id])" class="list__item">Add block</div>
         </div>

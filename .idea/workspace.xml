@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c498fde3-3a60-4323-aee8-885e7cb4049d" name="Default Changelist" comment="" />
+    <list default="true" id="c498fde3-3a60-4323-aee8-885e7cb4049d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/MoreButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/components/MoreButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/MyTask.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/components/MyTask.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/page/PageTaskUpdate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/page/PageTaskUpdate.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/page/PageTaskView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/page/PageTaskView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/widgets/CardsList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/widgets/CardsList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/widgets/TaskBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/widgets/TaskBlock.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/widgets/TasksList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/widgets/TasksList.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +25,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="20PRFDjRuKfUQQRzdBx0Ww2mOSX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -44,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635944130643</updated>
-      <workItem from="1635944134944" duration="46043000" />
+      <workItem from="1635944134944" duration="54135000" />
     </task>
     <servers />
   </component>
@@ -56,10 +72,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="127" key="#Stylelint/0.23.1440.877@0.23.1440.877" timestamp="1636134371456" />
-    <state x="376" y="202" width="687" height="518" key="find.popup" timestamp="1636308396908">
+    <state x="376" y="202" width="687" height="518" key="find.popup" timestamp="1636410903379">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="376" y="202" width="687" height="518" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1636308396908" />
+    <state x="376" y="202" width="687" height="518" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1636410903379" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1636308089552">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

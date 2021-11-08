@@ -2,7 +2,7 @@
     <div class="page__update update">
         <modal-window @click="addElement" v-if="clickButton"/>
         <div class="page__header header">
-            <div class="header__title">{{task.title}}</div>
+            <div @click="taskView" class="header__title">{{task.title}}</div>
             <div class="header__container">
                 <my-button @click="viewModal(['block', 0])">Add block</my-button>
                 <my-button @click="viewModal(['task', 0])">Add task</my-button>
@@ -44,14 +44,24 @@
                     let id = Math.floor(Math.random() * 1000000000000000000000);
                     this.task.tasks.push({
                         title: val, type: this.type, id, parent_id: this.parent_id,
-                        tasks: this.type === 'block' ? [] : null
+                        tasks: this.type === 'block' ? [] : null,
+                        checked: this.type === 'block' ? null : false,
                     });
 
                     this.title = this.type = '';
-                    this.updateLocal();
+                    this.updateLocal(this.task.tasks);
                 }
 
                 this.clickButton = 0;
+            },
+
+            taskView(){
+                this.$router.push({
+                    name: `task`,
+                    params: {
+                        id: this.$route.params.id
+                    }
+                }).catch(()=>{})
             },
 
             viewModal([type, parent]){
@@ -59,16 +69,6 @@
                 this.type = type;
                 this.parent_id = parent
             },
-
-            updateLocal(){
-                this.tasks.map(el => {
-                    if(el.id === +this.$route.params.id){
-                        el.tasks = this.task.tasks
-                    }
-                });
-
-                localStorage.setItem('tasks', JSON.stringify(this.tasks))
-            }
         },
     }
 </script>
@@ -87,6 +87,7 @@
     .header
         &__title
             font-size 21px
+            cursor pointer
         &__container .button + .button
             margin-left 25px
 
